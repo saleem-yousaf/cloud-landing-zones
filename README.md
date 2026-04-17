@@ -4,10 +4,6 @@ Secure, production-ready cloud foundations with Infrastructure as Code and built
 
 
 
-\---
-
-
-
 \## 🚀 The problem
 
 
