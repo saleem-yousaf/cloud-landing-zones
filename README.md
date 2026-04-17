@@ -1,35 +1,324 @@
-# Cloud Landing Zone Accelerators
+\# 🌍 Cloud Landing Zone Accelerators (AWS | Azure | GCP | OCI)
 
-A portfolio ready collection of secure-by-design landing zone reference implementations for AWS, Azure, and Google Cloud, with architecture diagrams, Infrastructure as Code, and STRIDE mappings aligned to threat hunting and detection engineering.
 
-## What is included
-- AWS landing zone design with Terraform starter templates
-- Azure landing zone design with Bicep and Terraform starter templates
-- GCP landing zone design with Terraform starter templates
-- Platform design notes and implementation guidance
-- STRIDE mappings tied to likely telemetry and threat hunting use cases
-- Reusable diagrams for social content, GitHub readers, and solution discussions
 
-## Why this repository exists
-Most cloud programs lose time rebuilding the same foundations: identity, networking, logging, security boundaries, and governance. This repository accelerates the first 20 percent of a cloud platform build by providing opinionated, secure-by-default starting points that teams can adapt instead of rebuilding from scratch.
+!\[Terraform](https://img.shields.io/badge/IaC-Terraform-blue)
 
-## Repository structure
-- `aws/` - AWS landing zone IaC, notes, and diagrams
-- `azure/` - Azure landing zone IaC, notes, and diagrams
-- `gcp/` - GCP landing zone IaC, notes, and diagrams
-- `docs/` - Cross-cloud guidance, STRIDE mappings, and LinkedIn content
-- `shared/` - Security controls and common standards
+!\[Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-orange)
 
-## Core design principles
-1. Separate control plane, logging, security, and workload concerns
-2. Default to private connectivity and segmented network design
-3. Centralise logs, identity, policy enforcement, and guardrails
-4. Build least privilege and preventive governance in from day one
-5. Treat detection engineering as part of platform design, not an afterthought
+!\[Security](https://img.shields.io/badge/Security-First-green)
 
-## Suggested next steps for readers
-1. Clone the repository and review the relevant provider folder
-2. Read the platform notes before deploying the example IaC
-3. Tailor CIDR ranges, account or subscription layout, and policy controls
-4. Wire the outputs into your own CI/CD process and secrets handling
-5. Extend the baseline with workload-specific controls, threat models, and tests
+
+
+Secure, production-ready cloud foundations with Infrastructure as Code and built-in threat detection.
+
+
+
+\---
+
+
+
+\## 🚀 The problem
+
+
+
+Most cloud projects waste weeks rebuilding the same foundations:
+
+
+
+\* Networking
+
+\* Identity
+
+\* Logging
+
+\* Security controls
+
+
+
+Before delivering any real value.
+
+
+
+\---
+
+
+
+\## 💡 The solution
+
+
+
+This repository provides \*\*ready-to-deploy landing zone accelerators\*\* that are:
+
+
+
+\* 🔐 Secure by design
+
+\* ⚙️ Built with Infrastructure as Code
+
+\* 📊 Observable and threat-aware
+
+\* ☁️ Multi-cloud (AWS, Azure, GCP, OCI)
+
+
+
+👉 Deploy a secure cloud foundation in minutes, not weeks.
+
+
+
+\---
+
+
+
+\## 📊 Architecture Overview
+
+
+
+\### AWS
+
+
+
+!\[AWS](aws/diagrams/aws-landing-zone.png)
+
+
+
+\### Azure
+
+
+
+!\[Azure](azure/diagrams/azure-landing-zone.png)
+
+
+
+\### GCP
+
+
+
+!\[GCP](gcp/diagrams/gcp-landing-zone.png)
+
+
+
+\---
+
+
+
+\## 🧱 What’s included
+
+
+
+\### ☁️ AWS
+
+
+
+\* Multi-account architecture (Organization-based)
+
+\* VPC segmentation (public / private / isolated)
+
+\* GuardDuty, CloudTrail, logging baseline
+
+\* Terraform starter
+
+
+
+\### ☁️ Azure
+
+
+
+\* Management groups + subscription model
+
+\* Hub-spoke networking
+
+\* Defender + Log Analytics baseline
+
+\* Bicep + Terraform
+
+
+
+\### ☁️ GCP
+
+
+
+\* Org → Folder → Project model
+
+\* Shared VPC design
+
+\* IAM + logging baseline
+
+\* Terraform starter
+
+
+
+\### ☁️ OCI (Optional)
+
+
+
+\* Compartment-based landing zone
+
+\* VCN + IAM + Cloud Guard concepts
+
+
+
+\---
+
+
+
+\## 🔐 Security-first design
+
+
+
+All landing zones include:
+
+
+
+\* Least privilege access models
+
+\* Centralised logging
+
+\* Network segmentation
+
+\* Policy enforcement
+
+\* Secure defaults (no public exposure by default)
+
+
+
+\---
+
+
+
+\## 🎯 STRIDE → Threat Hunting (What makes this different)
+
+
+
+Most landing zone designs stop at architecture.
+
+
+
+This one goes further — linking \*\*threat modelling → detection engineering\*\*.
+
+
+
+| STRIDE                 | Detection Focus                      |
+
+| ---------------------- | ------------------------------------ |
+
+| Spoofing               | Suspicious logins / role assumptions |
+
+| Tampering              | Policy and configuration drift       |
+
+| Repudiation            | Unattributed privileged actions      |
+
+| Information Disclosure | Data exfiltration patterns           |
+
+| Denial of Service      | Traffic spikes / abuse               |
+
+| Privilege Escalation   | Role changes + sensitive API calls   |
+
+
+
+👉 See full mappings: `/docs/stride-threat-hunting-mappings.md`
+
+
+
+\---
+
+
+
+\## ⚙️ Quick Start
+
+
+
+```bash
+
+\# Example (AWS Terraform)
+
+cd aws/terraform
+
+terraform init
+
+terraform apply
+
+```
+
+
+
+\---
+
+
+
+\## 🧠 Why this matters
+
+
+
+A landing zone is not just infrastructure.
+
+
+
+It is:
+
+
+
+\* Your security boundary
+
+\* Your audit evidence source
+
+\* Your incident investigation foundation
+
+
+
+If it’s built wrong, everything on top of it is at risk.
+
+
+
+\---
+
+
+
+\## 🧠 Who this is for
+
+
+
+\* Security architects
+
+\* Cloud engineers
+
+\* Platform teams
+
+\* Organisations building secure cloud environments
+
+
+
+\---
+
+
+
+\## 👤 Author
+
+
+
+\*\*Saleem Yousaf\*\*
+
+Cybersecurity Architect | Cloud Security | Zero Trust
+
+
+
+\---
+
+
+
+\## ⭐ If useful
+
+
+
+If this repository helped you:
+
+
+
+\* Star ⭐ the repo
+
+\* Share it
+
+\* Suggest improvements
+
+
+
