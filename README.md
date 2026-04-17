@@ -127,7 +127,7 @@ This one goes further — linking threat modelling → detection engineering.
 
 
 
-👉 See full mappings: `/docs/stride-threat-hunting-mappings.md`
+👉 See full mappings: `docs/stride-threat-hunting-mappings.md`
 
 
 
