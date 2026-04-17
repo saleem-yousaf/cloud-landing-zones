@@ -137,7 +137,7 @@ This one goes further — linking threat modelling → detection engineering.
 
 ```bash
 
-\# Example (AWS Terraform)
+# Example (AWS Terraform)
 
 cd aws/terraform
 
