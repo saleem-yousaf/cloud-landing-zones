@@ -1,15 +1,5 @@
 \# 🌍 Cloud Landing Zone Accelerators (AWS | Azure | GCP | OCI)
 
-
-
-!\[Terraform](https://img.shields.io/badge/IaC-Terraform-blue)
-
-!\[Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-orange)
-
-!\[Security](https://img.shields.io/badge/Security-First-green)
-
-
-
 Secure, production-ready cloud foundations with Infrastructure as Code and built-in threat detection.
 
 
