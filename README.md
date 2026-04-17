@@ -109,21 +109,21 @@ This one goes further — linking threat modelling → detection engineering.
 
 
 
-| STRIDE                 | Detection Focus                      |
+ STRIDE                 | Detection Focus                     
 
-| ---------------------- | ------------------------------------ |
+ ---------------------- | ------------------------------------ 
 
-| Spoofing               | Suspicious logins / role assumptions |
+ Spoofing               | Suspicious logins / role assumptions 
 
-| Tampering              | Policy and configuration drift       |
+ Tampering              | Policy and configuration drift      
 
-| Repudiation            | Unattributed privileged actions      |
+ Repudiation            | Unattributed privileged actions      
 
-| Information Disclosure | Data exfiltration patterns           |
+ Information Disclosure | Data exfiltration patterns          
 
-| Denial of Service      | Traffic spikes / abuse               |
+ Denial of Service      | Traffic spikes / abuse               
 
-| Privilege Escalation   | Role changes + sensitive API calls   |
+ Privilege Escalation   | Role changes + sensitive API calls   
 
 
 
