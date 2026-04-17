@@ -35,33 +35,19 @@ This repository provides ready-to-deploy landing zone accelerators that are:
 
 
 
-\## 📊 Architecture Overview
+## 📊 Architecture Overview
 
+### AWS
 
+[AWS](aws/diagrams/aws-landing-zone.png)
 
-\### AWS
+### Azure
 
+[Azure](azure/diagrams/azure-landing-zone.png)
 
+### GCP
 
-!\[AWS](aws/diagrams/aws-landing-zone.png)
-
-
-
-\### Azure
-
-
-
-!\[Azure](azure/diagrams/azure-landing-zone.png)
-
-
-
-\### GCP
-
-
-
-!\[GCP](gcp/diagrams/gcp-landing-zone.png)
-
-
+[GCP](gcp/diagrams/gcp-landing-zone.png)
 
 \---
 
