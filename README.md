@@ -111,7 +111,7 @@ This one goes further — linking threat modelling → detection engineering.
 
  STRIDE                 | Detection Focus                     
 
- ---------------------- | ------------------------------------ 
+
 
  Spoofing               | Suspicious logins / role assumptions 
 
