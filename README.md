@@ -177,7 +177,8 @@ If it’s built wrong, everything on top of it is at risk.
 ## 👤 Author
 
 Saleem Yousaf
-#Cybersecurity Architect | Cloud Security | Zero Trust
+
+Cybersecurity Architect | Cloud Security | Zero Trust
 
 ---
 
