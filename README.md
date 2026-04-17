@@ -168,7 +168,7 @@ It is:
 * Your audit evidence source
 * Your incident investigation foundation
 
-If it’s built wrong, everything on top of it is at risk.
+If it's designed insecurely, it will be built insecurely, everything on top of it is at risk.
 
 ---
 ## 🏢 Example use case
