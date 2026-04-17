@@ -92,7 +92,7 @@ This repository provides ready-to-deploy landing zone accelerators that are:
 
 ---
 
-## 🔐 Security-first design
+## 🔐 Secure-by-design first
 
 All landing zones include:
 
