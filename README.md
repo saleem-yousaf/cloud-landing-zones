@@ -18,29 +18,20 @@ Before delivering any real value.
 ---
 
 
-\## 💡 The solution
+## 💡 The solution
 
 
 
 This repository provides \*\*ready-to-deploy landing zone accelerators\*\* that are:
 
-
-
-\* 🔐 Secure by design
-
-\* ⚙️ Built with Infrastructure as Code
-
-\* 📊 Observable and threat-aware
-
-\* ☁️ Multi-cloud (AWS, Azure, GCP, OCI)
-
-
+* 🔐 Secure by design
+* ⚙️ Built with Infrastructure as Code
+* 📊 Observable and threat-aware
+* ☁️ Multi-cloud (AWS, Azure, GCP, OCI)
 
 👉 Deploy a secure cloud foundation in minutes, not weeks.
 
-
-
-\---
+---
 
 
 
