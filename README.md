@@ -1,6 +1,6 @@
 # Cloud Landing Zone Accelerators
 
-A portfolio-ready collection of secure-by-design landing zone reference implementations for AWS, Azure, and Google Cloud, with architecture diagrams, Infrastructure as Code, and STRIDE mappings aligned to threat hunting and detection engineering.
+A portfolio ready collection of secure-by-design landing zone reference implementations for AWS, Azure, and Google Cloud, with architecture diagrams, Infrastructure as Code, and STRIDE mappings aligned to threat hunting and detection engineering.
 
 ## What is included
 - AWS landing zone design with Terraform starter templates
