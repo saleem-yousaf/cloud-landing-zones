@@ -46,7 +46,7 @@ This repository provides ready-to-deploy landing zone accelerators that are:
 
 ### AWS
 
-[AWS](aws/diagrams/aws-landing-zone.png)
+![AWS](aws/diagrams/aws-landing-zone.png)
 
 ### Azure
 
