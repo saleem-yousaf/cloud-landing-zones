@@ -50,11 +50,11 @@ This repository provides ready-to-deploy landing zone accelerators that are:
 
 ### Azure
 
-[Azure](azure/diagrams/azure-landing-zone.png)
+![Azure](azure/diagrams/azure-landing-zone.png)
 
 ### GCP
 
-[GCP](gcp/diagrams/gcp-landing-zone.png)
+![GCP](gcp/diagrams/gcp-landing-zone.png)
 
 ---
 
