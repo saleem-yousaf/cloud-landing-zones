@@ -49,103 +49,63 @@ This repository provides ready-to-deploy landing zone accelerators that are:
 
 [GCP](gcp/diagrams/gcp-landing-zone.png)
 
-\---
+---
 
 
 
-\## 🧱 What’s included
+## 🧱 What’s included
+
+### ☁️ AWS
 
 
 
-\### ☁️ AWS
+* Multi-account architecture (Organization-based)
+* VPC segmentation (public / private / isolated)
+* GuardDuty, CloudTrail, logging baseline
+* Terraform starter
 
+### ☁️ Azure
 
+* Management groups + subscription model
+* Hub-spoke networking
+* Defender + Log Analytics baseline
+* Bicep + Terraform
 
-\* Multi-account architecture (Organization-based)
+### ☁️ GCP
 
-\* VPC segmentation (public / private / isolated)
+* Org → Folder → Project model
+* Shared VPC design
+* IAM + logging baseline
+* Terraform starter
 
-\* GuardDuty, CloudTrail, logging baseline
+### ☁️ OCI (Optional)
 
-\* Terraform starter
+* Compartment-based landing zone
+* VCN + IAM + Cloud Guard concepts
 
+---
 
-
-\### ☁️ Azure
-
-
-
-\* Management groups + subscription model
-
-\* Hub-spoke networking
-
-\* Defender + Log Analytics baseline
-
-\* Bicep + Terraform
-
-
-
-\### ☁️ GCP
-
-
-
-\* Org → Folder → Project model
-
-\* Shared VPC design
-
-\* IAM + logging baseline
-
-\* Terraform starter
-
-
-
-\### ☁️ OCI (Optional)
-
-
-
-\* Compartment-based landing zone
-
-\* VCN + IAM + Cloud Guard concepts
-
-
-
-\---
-
-
-
-\## 🔐 Security-first design
-
-
+## 🔐 Security-first design
 
 All landing zones include:
 
+* Least privilege access models
+* Centralised logging
+* Network segmentation
+* Policy enforcement
+* Secure defaults (no public exposure by default)
 
-
-\* Least privilege access models
-
-\* Centralised logging
-
-\* Network segmentation
-
-\* Policy enforcement
-
-\* Secure defaults (no public exposure by default)
+---
 
 
 
-\---
-
-
-
-\## 🎯 STRIDE → Threat Hunting (What makes this different)
+## 🎯 STRIDE → Threat Hunting (What makes this different)
 
 
 
 Most landing zone designs stop at architecture.
 
-
-
-This one goes further — linking \*\*threat modelling → detection engineering\*\*.
+This one goes further — linking threat modelling → detection engineering.
 
 
 
@@ -171,13 +131,9 @@ This one goes further — linking \*\*threat modelling → detection engineering
 
 
 
-\---
+---
 
-
-
-\## ⚙️ Quick Start
-
-
+## ⚙️ Quick Start
 
 ```bash
 
@@ -191,85 +147,46 @@ terraform apply
 
 ```
 
+---
 
 
-\---
-
-
-
-\## 🧠 Why this matters
-
-
+## 🧠 Why this matters
 
 A landing zone is not just infrastructure.
 
 
-
 It is:
 
-
-
-\* Your security boundary
-
-\* Your audit evidence source
-
-\* Your incident investigation foundation
-
-
+* Your security boundary
+* Your audit evidence source
+* Your incident investigation foundation
 
 If it’s built wrong, everything on top of it is at risk.
 
+---
 
+## 🧠 Who this is for
 
-\---
+* Security architects
+* Cloud engineers
+* Platform teams
+* Organisations building secure cloud environments
 
+---
 
+## 👤 Author
 
-\## 🧠 Who this is for
-
-
-
-\* Security architects
-
-\* Cloud engineers
-
-\* Platform teams
-
-\* Organisations building secure cloud environments
-
-
-
-\---
-
-
-
-\## 👤 Author
-
-
-
-\*\*Saleem Yousaf\*\*
-
+Saleem Yousaf
 Cybersecurity Architect | Cloud Security | Zero Trust
 
+---
 
-
-\---
-
-
-
-\## ⭐ If useful
-
-
+## ⭐ If useful
 
 If this repository helped you:
-
-
-
-\* Star ⭐ the repo
-
-\* Share it
-
-\* Suggest improvements
+* Star ⭐ the repo
+* Share it
+* Suggest improvements
 
 
 
