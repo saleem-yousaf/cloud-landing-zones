@@ -1,4 +1,4 @@
-\# 🌍 Cloud Landing Zone Accelerators (AWS | Azure | GCP | OCI)
+# 🌍 Cloud Landing Zone Accelerators (AWS | Azure | GCP | OCI)
 
 Secure, production-ready cloud foundations with Infrastructure as Code and built-in threat detection.
 
