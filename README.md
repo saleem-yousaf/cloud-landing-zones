@@ -4,30 +4,18 @@ Secure, production-ready cloud foundations with Infrastructure as Code and built
 
 
 
-\## 🚀 The problem
-
-
+## 🚀 The problem
 
 Most cloud projects waste weeks rebuilding the same foundations:
 
-
-
-\* Networking
-
-\* Identity
-
-\* Logging
-
-\* Security controls
-
-
+* Networking
+* Identity
+* Logging
+* Security controls
 
 Before delivering any real value.
 
-
-
-\---
-
+---
 
 
 \## 💡 The solution
