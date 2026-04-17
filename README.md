@@ -41,7 +41,7 @@ This repository provides ready-to-deploy landing zone accelerators that are:
 - Security controls aligned to best practices  
 - A baseline ready for production workloads  
 
-
+---
 ## 📊 Architecture Overview
 
 ### AWS
