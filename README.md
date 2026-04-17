@@ -22,7 +22,7 @@ Before delivering any real value.
 
 
 
-This repository provides \*\*ready-to-deploy landing zone accelerators\*\* that are:
+This repository provides ready-to-deploy landing zone accelerators that are:
 
 * 🔐 Secure by design
 * ⚙️ Built with Infrastructure as Code
