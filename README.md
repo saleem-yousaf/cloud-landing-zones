@@ -105,7 +105,7 @@ All landing zones include:
 
 Most landing zone designs stop at architecture.
 
-This one goes further — linking threat modelling → detection engineering.
+This one goes further, linking threat modelling → detection engineering.
 
 
 
