@@ -4,7 +4,7 @@ Secure, production ready cloud foundations with Infrastructure as Code and built
 
 
 
-## 🚀 The problem
+## The problem
 
 Most cloud projects waste weeks rebuilding the same foundations:
 
@@ -18,22 +18,22 @@ Before delivering any real value.
 ---
 
 
-## 💡 The solution
+## The solution
 
 
 
 This repository provides ready-to-deploy landing zone accelerators that are:
 
-* 🔐 Secure by design
-* ⚙️ Built with Infrastructure as Code
-* 📊 Observable and threat-aware
-* ☁️ Multi-cloud (AWS, Azure, GCP, OCI)
+* 1. Secure by design
+* 2. Built with Infrastructure as Code
+* 3. Observable and threat-aware
+* 4. Multi-cloud (AWS, Azure, GCP, OCI)
 
-👉 Deploy a secure cloud foundation in minutes, not weeks.
+Deploy a secure cloud foundation in minutes, not weeks.
 
 ---
 ## Quick Value
-## ⚡ What you get in minutes
+##  What you get in minutes
 
 - Deploy a secure cloud foundation  
 - Pre-configured networking and segmentation  
@@ -42,7 +42,7 @@ This repository provides ready-to-deploy landing zone accelerators that are:
 - A baseline ready for production workloads  
 
 ---
-## 📊 Architecture Overview
+## Architecture Overview
 
 ### AWS
 
@@ -60,9 +60,9 @@ This repository provides ready-to-deploy landing zone accelerators that are:
 
 
 
-## 🧱 What’s included
+## What’s included
 
-### ☁️ AWS
+### AWS
 
 
 
@@ -71,28 +71,28 @@ This repository provides ready-to-deploy landing zone accelerators that are:
 * GuardDuty, CloudTrail, logging baseline
 * Terraform starter
 
-### ☁️ Azure
+### Azure
 
 * Management groups + subscription model
 * Hub-spoke networking
 * Defender + Log Analytics baseline
 * Bicep + Terraform
 
-### ☁️ GCP
+### GCP
 
 * Org → Folder → Project model
 * Shared VPC design
 * IAM + logging baseline
 * Terraform starter
 
-### ☁️ OCI (Optional)
+### OCI (Optional)
 
 * Compartment-based landing zone
 * VCN + IAM + Cloud Guard concepts
 
 ---
 
-## 🔐 Secure-by-design first
+## Secure-by-design first
 
 All landing zones include:
 
@@ -106,7 +106,7 @@ All landing zones include:
 
 
 
-## 🎯 STRIDE → Threat Hunting (What makes this different)
+## STRIDE → Threat Hunting (What makes this different)
 
 
 
@@ -134,13 +134,13 @@ This one goes further, linking threat modelling → detection engineering.
 
 
 
-👉 See full mappings: `docs/stride-threat-hunting-mappings.md`
+See full mappings: `docs/stride-threat-hunting-mappings.md`
 
 
 
 ---
 
-## ⚙️ Quick Start
+## Quick Start
 
 ```bash
 
@@ -157,7 +157,7 @@ terraform apply
 ---
 
 
-## 🧠 Why this matters
+## Why this matters
 
 A landing zone is not just infrastructure.
 
@@ -171,7 +171,7 @@ It is:
 If it's designed insecurely, it will be built insecurely, everything on top of it is at risk.
 
 ---
-## 🏢 Example use case
+## Example use case
 
 A company starting cloud adoption typically needs:
 
@@ -187,7 +187,7 @@ This landing zone provides a starting point to:
 
 ---
 
-## 📁 Repository structure
+## Repository structure
 
 - `/aws` – AWS landing zone + Terraform  
 - `/azure` – Azure landing zone + Bicep/Terraform  
@@ -196,7 +196,7 @@ This landing zone provides a starting point to:
 - `/docs` – Architecture, STRIDE, and threat hunting
 ---
 
-## 🧠 Who this is for
+## Who this is for
 
 * Security architects
 * Cloud engineers
